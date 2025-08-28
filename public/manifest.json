@@ -1,0 +1,9 @@
+{
+  "name": "Business Website",
+  "short_name": "BizSite",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": []
+}

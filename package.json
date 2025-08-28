@@ -1,0 +1,19 @@
+{
+  "name": "business-website",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "stylelint src/**/*.{css,scss,sass} && eslint src/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,scss,sass,html,json,md}",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^4.0.0",
+    "autoprefixer": "^10.4.7",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0",
+    "vite-plugin-html-minify": "^1.0.0"
+  }
+}
