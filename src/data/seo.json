@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "CosmoCode Devs | Premium Front-End Development",
+  "defaultDescription": "We craft stunning, high-performance websites from scratch. No templates. Just results.",
+  "keywords": ["custom web development", "frontend engineering", "performance websites"],
+  "openGraph": {
+    "title": "CosmoCode Devs",
+    "type": "website",
+    "url": "https://www.cosmocode.dev",
+    "image": "/assets/images/og-banner.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "The Future of Front-End in 2025",
+      "slug": "future-frontend-2025",
+      "excerpt": "Why scratch coding beats templates in the premium market.",
+      "date": "2025-08-29"
+    },
+    {
+      "title": "Top 5 UI Trends",
+      "slug": "ui-trends",
+      "excerpt": "From neumorphism to glassmorphism — what's next?",
+      "date": "2025-08-25"
+    }
+  ]
+}

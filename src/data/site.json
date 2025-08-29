@@ -1,0 +1,14 @@
+{
+  "siteName": "CosmoCode Devs",
+  "tagline": "Modern Web Experiences, Built From Scratch",
+  "url": "https://www.cosmocode.dev",
+  "theme": {
+    "primaryColor": "#1E40AF",
+    "secondaryColor": "#FACC15",
+    "darkMode": true
+  },
+  "author": {
+    "name": "CosmoCode Devs",
+    "email": "info@cosmocode.dev"
+  }
+}

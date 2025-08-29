@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Luxury Car Showroom",
+      "description": "High-end UI showcasing cars with 3D effects and smooth animations.",
+      "image": "/assets/images/projects/car-showroom.jpg",
+      "link": "https://example.com/car-showroom"
+    },
+    {
+      "title": "Tech SaaS Landing Page",
+      "description": "Optimized for conversions with SEO-rich architecture.",
+      "image": "/assets/images/projects/saas.jpg",
+      "link": "https://example.com/saas"
+    }
+  ]
+}

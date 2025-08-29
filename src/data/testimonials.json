@@ -1,0 +1,16 @@
+{
+  "testimonials": [
+    {
+      "name": "Client A",
+      "company": "Luxury Motors",
+      "quote": "The site boosted our online sales by 40%.",
+      "image": "/assets/images/testimonials/client-a.jpg"
+    },
+    {
+      "name": "Client B",
+      "company": "Tech Innovations",
+      "quote": "A flawless front-end build that scaled globally.",
+      "image": "/assets/images/testimonials/client-b.jpg"
+    }
+  ]
+}

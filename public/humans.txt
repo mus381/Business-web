@@ -1,0 +1,12 @@
+/* TEAM */
+Developer: G.N Musa
+Site: https://yourdomain.com
+Twitter: @yourhandle
+Location: Kenya
+
+/* THANKS */
+Built with ❤️ using modern web technologies.
+
+/* SITE */
+Last update: 2025-08-29
+Standards: HTML5, CSS3, ESNext

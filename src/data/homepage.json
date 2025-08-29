@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "We Build Stunning Custom Websites",
+    "subtitle": "Front-end engineering with precision, speed, and creativity.",
+    "cta": {
+      "primary": { "label": "Get Started", "href": "/contact" },
+      "secondary": { "label": "See Portfolio", "href": "/portfolio" }
+    }
+  },
+  "features": [
+    {
+      "icon": "code",
+      "title": "Hand-Crafted Code",
+      "description": "No templates, no bloat. Just clean, maintainable, future-proof code."
+    },
+    {
+      "icon": "zap",
+      "title": "Lightning Fast",
+      "description": "Optimized for performance. Faster load times, higher conversions."
+    },
+    {
+      "icon": "shield",
+      "title": "Secure by Design",
+      "description": "Built with modern security best practices."
+    }
+  ]
+}

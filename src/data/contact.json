@@ -1,0 +1,9 @@
+{
+  "address": "123 Tech Avenue, Nairobi, Kenya",
+  "phone": "+254-700-123-456",
+  "email": "hello@cosmocode.dev",
+  "social": {
+    "linkedin": "https://linkedin.com/company/cosmocode",
+    "github": "https://github.com/cosmocode"
+  }
+}

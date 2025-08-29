@@ -1,0 +1,12 @@
+{
+  "mission": "To deliver front-end experiences that look stunning, perform flawlessly, and scale effortlessly.",
+  "team": [
+    {
+      "name": "Jane Doe",
+      "role": "Founder & Lead Developer",
+      "image": "/assets/images/team/jane.jpg"
+    },
+    { "name": "John Smith", "role": "UI/UX Designer", "image": "/assets/images/team/john.jpg" }
+  ],
+  "values": ["Code Excellence", "Design Precision", "Client Success"]
+}

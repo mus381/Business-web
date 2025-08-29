@@ -1,0 +1,12 @@
+{
+  "faqs": [
+    {
+      "question": "Why custom code instead of templates?",
+      "answer": "Custom code is faster, more secure, SEO-friendly, and uniquely aligned to your brand."
+    },
+    {
+      "question": "Do you handle maintenance?",
+      "answer": "Yes, we provide ongoing support and optimizations."
+    }
+  ]
+}

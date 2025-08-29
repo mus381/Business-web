@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "title": "Custom Website Development",
+      "description": "Unique, scratch-built websites tailored for your brand.",
+      "icon": "layout"
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Design systems that prioritize user experience and conversions.",
+      "icon": "palette"
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Speed tuning, SEO improvements, and code audits.",
+      "icon": "trending-up"
+    }
+  ]
+}

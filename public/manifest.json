@@ -1,9 +1,27 @@
 {
-  "name": "Business Website",
-  "short_name": "BizSite",
+  "name": "CosmoCode Devs",
+  "short_name": "CosmoCode",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0ea5e9",
-  "icons": []
+  "background_color": "#0d1117",
+  "theme_color": "#1f6feb",
+  "description": "A modern frontend developer portfolio showcasing cutting-edge web projects.",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
