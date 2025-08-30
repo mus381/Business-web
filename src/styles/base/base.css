@@ -1,0 +1,10 @@
+/* src/styles/base/base.css */
+body {
+  font-family: sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
