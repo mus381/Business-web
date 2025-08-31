@@ -1,6 +1,30 @@
 /* reset.css */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* fixes padding/width calculation */
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 100%; /* 1rem = 16px by default */
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%; /* responsive media */
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* inherit font styles */
 }
