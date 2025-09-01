@@ -1,35 +1,63 @@
-/* base.css */
+/* Base layer composes reset + tokens */
 @import url('./reset.css');
 @import url('./variables.css');
 
+html,
 body {
-  font-family: var(--font-sans);
-  font-size: var(--font-size-base);
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  padding: var(--space-md);
+  height: 100%;
 }
 
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Inter, sans-serif;
+  line-height: 1.6;
+  transition: background var(--transition-med), color var(--transition-med);
+}
+
+/* Headings */
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
+h3 {
   line-height: 1.25;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-3);
 }
 
-p {
-  margin-bottom: var(--space-md);
-}
-
+/* Links */
 a {
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-decoration: none;
+  transition: color var(--transition-fast), opacity var(--transition-fast);
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* Layout helpers */
+.container {
+  max-width: var(--container-w);
+  margin-inline: auto;
+  padding: var(--space-6) var(--space-4);
+}
+
+/* Header/Footer shells */
+.site-header,
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 0;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.125rem;
 }

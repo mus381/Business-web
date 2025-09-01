@@ -1,5 +1,60 @@
-/* main.css */
-h1 {
-  font-size: 2rem;
-  color: var(--accent);
+/* Card demo */
+.card {
+  background: var(--color-elev-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+  transition: background var(--transition-med), border-color var(--transition-med),
+    box-shadow var(--transition-med);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* Theme switch (accessible, no JS required for visuals) */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+
+.theme-switch input {
+  appearance: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.theme-switch .slider {
+  position: absolute;
+  inset: 0;
+  background: #c7cbd6;
+  border-radius: 9999px;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 12%);
+  transition: background var(--transition-fast);
+}
+
+.theme-switch .slider::before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  top: 3px;
+  border-radius: 50%;
+  background: var(--color-accent-contrast);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+  transition: transform var(--transition-fast);
+}
+
+/* Checked state uses brand color */
+.theme-switch input:checked + .slider {
+  background: var(--color-accent);
+}
+
+.theme-switch input:checked + .slider::before {
+  transform: translateX(24px);
 }

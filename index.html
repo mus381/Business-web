@@ -2,13 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 2 - Vite Workflow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dark Mode Demo</title>
   </head>
   <body>
-    <div id="app">
-      <h1>Vite CSS Test</h1>
-    </div>
+    <header class="site-header">
+      <h1 class="brand">CosmoCode Devs</h1>
+
+      <!-- Theme switch -->
+      <label class="theme-switch" aria-label="Toggle dark mode">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider" aria-hidden="true"></span>
+      </label>
+    </header>
+
+    <main id="app" class="container">
+      <article class="card">
+        <h2>Theme System</h2>
+        <p>Auto-detects OS preference. Manual override persists in localStorage.</p>
+        <p><a href="#">Test link color</a></p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <small>&copy; 2025 CosmoCode Devs</small>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -1,25 +1,44 @@
-/* variables.css */
+/* Design tokens: light (default) */
 :root {
-  /* Color palette */
-  --color-primary: #2563eb; /* blue-600 */
-  --color-secondary: #f59e0b; /* amber-500 */
-  --color-bg: #f9fafb; /* neutral background */
-  --color-text: #111827; /* almost-black */
+  /* Surfaces */
+  --color-bg: #fff;
+  --color-elev-1: #f5f7fb;
+  --color-border: #e5e7eb;
 
-  /* Typography */
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-size-base: 1rem; /* 16px */
-  --font-size-lg: 1.25rem;
-  --font-size-sm: 0.875rem;
+  /* Text */
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
 
-  /* Spacing */
-  --space-xs: 0.25rem; /* 4px */
-  --space-sm: 0.5rem; /* 8px */
-  --space-md: 1rem; /* 16px */
-  --space-lg: 2rem; /* 32px */
+  /* Brand */
+  --color-accent: #2563eb;
+  --color-accent-contrast: #fff;
 
-  /* Breakpoints */
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
+  /* Effects */
+  --radius: 12px;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 6%);
+  --shadow-md: 0 6px 20px rgb(0 0 0 / 8%);
+  --transition-fast: 0.2s;
+  --transition-med: 0.35s;
+
+  /* Layout */
+  --container-w: 1100px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+}
+
+/* Dark overrides via attribute */
+:root[data-theme='dark'] {
+  --color-bg: #0b1020;
+  --color-elev-1: #121933;
+  --color-border: #1f2a44;
+  --color-text: #e6e9ef;
+  --color-text-muted: #aab4c6;
+  --color-accent: #60a5fa;
+  --color-accent-contrast: #0b1020;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 40%);
+  --shadow-md: 0 10px 30px rgb(0 0 0 / 50%);
 }

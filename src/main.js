@@ -1,8 +1,7 @@
-// main.js
-import './styles/base/base.css'
+// Base layers (imports keep order deterministic)
+import './styles/base/base.css' // pulls reset + variables inside
+import './styles/base/main.css' // components/utilities/theme-switch styles
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Day 3</h1>
-  <p>This is styled using reset + variables + base layers.</p>
-  <a href="#">Test Link</a>
-`
+// Theme bootstrapping
+import { initThemeSwitch } from './scripts/theme.js'
+initThemeSwitch()
